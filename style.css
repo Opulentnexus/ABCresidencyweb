@@ -1783,3 +1783,24 @@ footer{
 .footer-credit:hover{
   opacity: 0.8;
 }
+
+
+
+
+
+
+
+.footer-map img {
+    width: 100%;
+    max-width: 320px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 14px;
+    display: block;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.footer-map img:hover {
+    transform: scale(1.03);
+}
